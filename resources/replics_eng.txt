@@ -4,7 +4,7 @@ Select the areas in which you work/study
 Have you previously worked in another country or in a foreign company?
 What format do you work/study in?
 Which communication channel do you most often use for work (educational) interaction?
-Do you use chatbots or NN at work, study and/or to search for information?
+Do you use chatbots or AI  at work, study and/or to search for information?
 Are you currently looking for a job (open or closed)?
 What sources do you use to find vacancies?
 How many sources do you usually use?
@@ -29,4 +29,3 @@ Do you know how to analyze the market of different countries?
 Do you form hypotheses for your job search?
 Write where you found out about the survey?
 If you are ready to share life hacks for organizing the job search process or difficulties you have encountered, please write your contact. We will contact you!
-Thank you for your participation! Feel free to contact the organizers: @TillarriZ
