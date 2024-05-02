@@ -152,4 +152,4 @@ def text_answer(message):
         bot.send_message(user.id, "напишите /start чтобы начать заново")
 
 
-bot.infinity_polling(logger_level=logging.DEBUG, timeout=10, long_polling_timeout=5)
+bot.infinity_polling()
