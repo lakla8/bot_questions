@@ -5,7 +5,10 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 load_dotenv()
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-bot = telebot.TeleBot(TELEGRAM_TOKEN)
+try:
+    bot = telebot.TeleBot(TELEGRAM_TOKEN)
+except Exception as e:
+    logging.error(f"An error occurred: {e}")
 
 user_data = []
 replics, questions = language_setup("resources/replics.txt", "resources/question.txt")
