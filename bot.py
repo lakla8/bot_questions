@@ -13,7 +13,6 @@ catch_phrase = "ОТПРАВИТЬ"
 write_phrase = "Друг"
 lang_question = "Напишите, пожалуйста, Ваш вариант"
 logger = telebot.logger
-logger.setLevel(logging.DEBUG)
 
 
 def update_inline_markup(callback: str, pos: int, user):
