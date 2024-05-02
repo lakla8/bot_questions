@@ -1,4 +1,4 @@
-import telebot, logging, os
+import telebot, logging, os, time
 from dotenv import load_dotenv
 from models import User, language_setup, check_user_new
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
