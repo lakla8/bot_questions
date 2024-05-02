@@ -1,0 +1,29 @@
+at the company:own business:fractional professional:freelancer:consultant:temporarily not working:still studying
+C-level:Founder/ Co-founder:Manager:Expert:Specialist:Junior:Student days
+Management:Data management:Software development:IT infrastructure:IT support:Cyber Security:HR:Marketing:Finance:Jurisprudence:SEND
+Yes, in other countries:Yes, in foreign companies:Both options are correct:No:I'm looking for my first job
+On-site:Hybrid:Remote
+Remote (email, sms, chat, etc.):Personal (calls, meetings, etc.)
+Yes, every week:Yes, but not every week:No
+Yes, actively:Yes, passively:No:I'm a career consultant
+Networking:LinkedIn:Telegram:Job boards :Aggregators:Company websites:Referrals' sites:Startups' sites:Social network:Help from career consultants:Other:SEND
+1-2:to 5:5-10:more than 10:Ask my assistants
+I'm planning:I have experience:No:I'm a consultant:Other (write who it is):SEND
+I only use bots:Often:Sometimes:And what is so possible?:Ask my assistants
+1-2:to 10:more than 10:Ask my assistants
+Telegram:What's App:X (ex-Twitter):Discord:Meta:Instagram:Ask my assistants:Others:SEND
+up to 10:up to 50:up to 100:I can't even count:I have to try:Ask the assistants
+Job boards:Aggregators:Company websites:Ask my assistants:SEND
+I only track on websites:Often:Sometimes:Ask my assistants
+I should try it:Ask my assistants:I don't like social media:Telegram:Instagram:X (ex-Twitter):Meta:Reddit:VK:TenChat:Other:SEND
+Only social networks:Often:Sometimes:Ask my assistants
+Only network:Yes, actively:Yes, passively:No, but I'm going to:I don't trust SM
+I keep it a secret:1-2:to 5:up to 10:more than 10
+Yes, it's relevant:I need to update:No:This is done by assistants
+Only on LinkedIn:Often:Sometimes:No experience
+Google:Notion:Excel:Click-up:Trello:Jira:My notebook:And why all this?:Ask my assistants:Other:SEND
+In general, yes:Need nuances:AI will save the world:No, help me:So everyone knows me:I'm a consultant
+AI will save the world:There are good consultants:And what is so possible?:I don't trust anyone:I know everything!
+Yes, it's written down :Usually, in my head:AI will save the world:I'm contacting specialists:What is it?:I should try it:No, everything is so clear
+Constantly analyzing:AI will save the world:I'm contacting specialists:What is it?:I should try it:No, everything is so clear!
+Constantly check hypotheses:AI will save the world:I'm contacting specialists:What is it?:I should try it:No, everything is so clear!
