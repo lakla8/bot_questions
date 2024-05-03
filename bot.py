@@ -16,7 +16,6 @@ user_data = []
 def update_inline_markup(markup, callback, pos: int, user):
     arr = markup.keyboard
     for index in range(len(arr)):
-        print(arr[index][0].text, callback)
         if arr[index][0].text in callback:
             if u'\u2713' in callback:
                 user.temp_ans.remove(callback[:-4])
@@ -37,7 +36,6 @@ def inline_markup(pos: int, flq=False):
         text = questions[pos][index]
         if flq:
             text = text + ":mtm"
-        print(text)
         markup.add(InlineKeyboardButton(text=questions[pos][index], callback_data=text))
     return markup
 
@@ -155,14 +153,12 @@ def on_callback_query_1(call):
 
 @bot.callback_query_handler(func=lambda call: True)
 def on_callback_query_2(call):
-    print(call, "l")
     if check_user_new(call.from_user.id, user_data) is False:
         bot.delete_message(call.message.chat.id, call.message.id)
         restart(call)
         return
 
     user = user_data[check_user_new(call.from_user.id, user_data)]
-    print(user)
     if user.lang is False:
         bot.delete_message(call.message.chat.id, call.message.id)
         restart(call)
@@ -172,6 +168,7 @@ def on_callback_query_2(call):
         user.temp_ans = []
         user.answers.append(call.data)
         user.pos = user.skip()
+        user.skip_status = 0
         bot.edit_message_text(replics[user.pos], call.message.chat.id, call.message.id,
                           reply_markup=inline_markup(user.pos))
     else:
