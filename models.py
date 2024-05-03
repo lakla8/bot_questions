@@ -1,7 +1,4 @@
-import json, csv, time
-
-
-
+import json, csv
 
 
 def create_json_file(input_data, output_file):
@@ -58,15 +55,16 @@ def setup():
 
 
 class User:
-    def __init__(self, id: int, username: str, lang="rus"):
+    def __init__(self, id: int, username: str):
         self.id = id
         self.username = username
         self.answers = []
         self.pos = 0
-        self.lang = lang
+        self.lang = False
         self.writing_status = 0
         self.temp_ans = []
         self.end_bool = False
+        self.skip_status = 0
         self.skip_scenario = {
             7: 10,
             11: 14,
