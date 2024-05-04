@@ -1,0 +1,2 @@
+this is a bot for a surveys in telegram, which after a small configuration can provide result in cls format.
+written on both telebot and aiogram libraries(telebot is more stable rn)
